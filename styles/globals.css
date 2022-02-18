@@ -5,7 +5,3 @@
 body {
   @apply bg-[#242424] text-white;
 }
-
-hr {
-  background-color: #383030;
-}

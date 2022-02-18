@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link'
 
 import '../styles/globals.css'
@@ -25,7 +24,7 @@ function Navbar() {
   return (
     <div className='flex justify-between items-center p-3 px-6'>
       <div>
-        <h1 className='text-2xl'><code>T A X I</code></h1>
+        <img src='https://www.bitaksi.com/wp-content/themes/BiTaksi/img/logo.png'></img>
       </div>
 
       <div className="flex justify-between items-center">
@@ -48,7 +47,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Navbar></Navbar>
-      <hr class="border-[#444040]"></hr>
+      <hr className="border-[#444040]"></hr>
       <Component {...pageProps} />
     </>
   )
