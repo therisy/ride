@@ -74,10 +74,10 @@ export default function Hero() {
 				</div>
 				<HeroCard>
 					<div>
-						<h1 className="text-2xl text-white font-bold mb-3">
-							Kayıt Ol
-						</h1>
 						<div className="flex-col flex justify-center items-center grid gap-y-6">
+							<h1 className="text-2xl text-white font-bold mb-3">
+								Kayıt Ol
+							</h1>
 							<HeroInput
 								name="name"
 								id="name"
